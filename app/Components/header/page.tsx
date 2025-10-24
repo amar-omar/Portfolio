@@ -30,7 +30,7 @@ export default function Header() {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          Hi! I'm Amar Omar
+          Hi! I&apos;m Amar Omar
           <Image
             src={assets.hand_icon}
             alt="Hand_Icon"
@@ -56,8 +56,9 @@ export default function Header() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            I am a Frontend Developer from Egypt , and I am a Fresh Graduate <br /> i enjoy building sites & apps . My Foucs in React (Next.js ) . 
-            
+            I am a Frontend Developer from Egypt , and I am a Fresh Graduate{" "}
+            <br /> i enjoy building sites & apps . My Foucs in React (Next.js )
+            .
           </motion.p>
         </div>
 

@@ -68,7 +68,7 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.7 }}
           className="text-sm sm:text-base mt-3 sm:mt-6 max-w-2xl mx-auto"
         >
-          I'd love to hear from you! If you have any questions, comments or
+          I&apos;d love to hear from you! If you have any questions, comments or
           feedback, please use the form below.
         </motion.p>
         <motion.form

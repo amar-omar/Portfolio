@@ -2,13 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { assets, workData } from "@/assets/assets";
-import Link from "next/link";
 import { motion } from "motion/react";
-import { useTheme } from "@/app/contexts/ThemeContext";
 
-export default function Work() {
-    const { theme } = useTheme();
-  
+export default function Work() {  
   return (
     <>
       <motion.section

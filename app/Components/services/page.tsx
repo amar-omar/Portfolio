@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { assets, serviceData } from "@/assets/assets";
-import Link from "next/link";
+import { serviceData } from "@/assets/assets";
 import { motion } from "motion/react";
 import { useTheme } from "@/app/contexts/ThemeContext";
 

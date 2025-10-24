@@ -6,18 +6,24 @@ import ThemeToggle from "../ThemeToggle";
 
 import React, { useEffect, useRef, useState } from "react";
 import { useTheme } from "@/app/contexts/ThemeContext";
+
 export default function Navbar() {
-  const sideMenuRef = useRef<HTMLUListElement | null>(null);
+  const sideMenuRef = useRef<HTMLUListElement>(null);
   const [IsScroll, setIsScroll] = useState(false);
   const { theme } = useTheme();
+
   function openMenu() {
-    // @ts-ignore
-    sideMenuRef.current.style.transform = "translateX(-16rem)";
+    if (sideMenuRef.current) {
+      sideMenuRef.current.style.transform = "translateX(-16rem)";
+    }
   }
+
   const closeMenu = () => {
-    // @ts-ignore
-    sideMenuRef.current.style.transform = "translateX(16rem)";
+    if (sideMenuRef.current) {
+      sideMenuRef.current.style.transform = "translateX(16rem)";
+    }
   };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -106,23 +112,17 @@ export default function Navbar() {
 
           {/* Contact - Hidden on mobile, visible on tablet and up */}
           <div
-            className={`hidden sm:flex bg-white items-center text-base md:text-lg border border-black/20 p-2 sm:p-3 md:p-4 px-6 sm:px-8 md:px-10 rounded-full shadow-sm opacity-50" ${
+            className={`hidden sm:flex items-center text-base md:text-lg border border-black/20 p-2 sm:p-3 md:p-4 px-6 sm:px-8 md:px-10 rounded-full shadow-sm ${
               theme === "dark"
-                ? "bg-gray-900 text-white"
+                ? "bg-gray-900 text-white border-gray-600"
                 : "bg-white text-black"
             }`}
           >
             <Link
               href="#contact"
-              className="flex items-center gap-2 hover:text-gray-600  transition-colors"
+              className="flex items-center gap-2 hover:text-gray-600 transition-colors"
             >
-              <span
-                className={`${
-                  theme === "dark" ? " text-black" : "bg-white text-black"
-                }`}
-              >
-                Contact
-              </span>
+              <span>Contact</span>
               <Image
                 alt="Arrow"
                 src={assets.arrow_icon}
@@ -156,7 +156,7 @@ export default function Navbar() {
           }`}
         >
           {/* Close button */}
-          <div className="absolute top-6 right-6" onClick={closeMenu} id="open">
+          <div className="absolute top-6 right-6" onClick={closeMenu}>
             <Image
               src={theme === "dark" ? assets.close_white : assets.close_black}
               alt="Close"
@@ -207,7 +207,7 @@ export default function Navbar() {
               href="#contact"
               className="text-lg sm:text-xl hover:text-gray-600 transition-colors"
             >
-              Testimonials
+              Contact me
             </Link>
           </li>
 
