@@ -52,17 +52,23 @@ export default function Services() {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.9 }}
               key={index}
-              className={` ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-white text-black'}"border-[0.5px] border-gray-400 px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12 rounded-xl cursor-pointer  hover:-translate-y-1 duration-500 shadow-md hover:shadow-lg hover:shadow-rose-100 w-full max-w-sm mx-auto sm:max-w-none"`}
+              className={` ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"}"border-[0.5px] border-gray-400 px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12 rounded-xl cursor-pointer  hover:-translate-y-1 duration-500 shadow-md hover:shadow-lg hover:shadow-rose-100 w-full max-w-sm mx-auto sm:max-w-none"`}
             >
-              <Image
-                src={icon}
-                alt={title}
-                className="w-12 sm:w-14 lg:w-16  text-start"
-              />
-              <h3 className={`font-semibold text-gray-700 my-3 sm:my-4 text-lg sm:text-xl"  ${theme === 'dark' ? ' text-white' : 'bg-white text-black'}`}>
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={icon}
+                  alt={title}
+                  className="w-12 sm:w-14 lg:w-16"
+                />
+              </a>
+              <h3
+                className={`font-semibold text-gray-700 my-3 sm:my-4 text-lg sm:text-xl"  ${theme === "dark" ? " text-white" : "bg-white text-black"}`}
+              >
                 {title}
               </h3>
-              <p className={`text-gray-600 text-xs sm:text-sm leading-relaxed"  ${theme === 'dark' ? ' text-white' : 'bg-white text-black'}`}>
+              <p
+                className={`text-gray-600 text-xs sm:text-sm leading-relaxed"  ${theme === "dark" ? " text-white" : "bg-white text-black"}`}
+              >
                 {description}
               </p>
               {/* <Link
@@ -83,4 +89,3 @@ export default function Services() {
     </>
   );
 }
-

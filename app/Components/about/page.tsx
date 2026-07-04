@@ -17,14 +17,7 @@ export default function About() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* <motion.h4
-          className="text-xl mb-2"
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
-          introduction
-        </motion.h4> */}
+       
         <motion.h1
           className="text-5xl font-sans"
           initial={{ opacity: 0, y: -20 }}
@@ -61,7 +54,7 @@ export default function About() {
           >
             <h4 className="text-lg text-justify max-w-2xl mb-8">
               I am a passionate and highly motivated Frontend Web Developer,
-              freshly graduated and eager to launch my career. I have a solid
+               eager to launch my career. I have a solid
               foundation in modern web technologies , and I am excited to apply
               my academic knowledge to real-world projects. I am a quick
               learner, a creative problem-solver, and ready to contribute to a
@@ -112,7 +105,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.3 }}
             >
-              Tools i use
+              Tools I use
             </motion.h4>
             <motion.ul
               className="flex items-center gap-3 sm:gap-5"

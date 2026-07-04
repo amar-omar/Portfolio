@@ -47,7 +47,7 @@ export default function Header() {
           >
             Frontend Web Developer <br />
             <span className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-              based in Egypt
+              Based in Egypt
             </span>
           </motion.h1>
           <motion.p
@@ -57,7 +57,7 @@ export default function Header() {
             transition={{ duration: 0.6, delay: 0.7 }}
           >
             I am a Frontend Developer from Egypt , and I am a Fresh Graduate{" "}
-            <br /> i enjoy building sites & apps . My Foucs in React (Next.js )
+            <br /> I enjoy building sites & apps . My Foucs in React (Next.js ) , angular
             .
           </motion.p>
         </div>
@@ -72,7 +72,7 @@ export default function Header() {
             href="mailto:amaromar6044@gmail.com?subject=Let's Connect&body=Hi Amar, I'd like to connect with you regarding..."
             className="bg-gray-800 text-white px-4 py-3 md:px-6 md:py-4 hover:bg-gray-900  rounded-full flex items-center justify-center gap-2  transition-colors text-sm md:text-base w-full sm:w-auto"
           >
-            connect me here
+            Contact Me 
             <Image
               src={assets.right_arrow_white}
               alt="right-arrow"
@@ -83,6 +83,7 @@ export default function Header() {
           <Link
             href="/Amar_Omar_Kamel-Front_End[1].pdf"
             download
+            target="_blank"
             className="bg-white text-black px-4 py-3 md:px-6 md:py-4 rounded-full border border-gray-300 flex items-center justify-center gap-2 hover:bg-gray-200 transition-colors text-sm md:text-base w-full sm:w-auto"
           >
             Download CV

@@ -1,5 +1,4 @@
 import About from "./Components/about/page";
-import Contact from "./Components/contact/page";
 import Footer from "./Components/footer/page";
 import Header from "./Components/header/page";
 import Navbar from "./Components/navbar/page";
@@ -13,7 +12,6 @@ export default function Home() {
       <About />
       <Services />
       <Work />
-      <Contact />
       <Footer />
     </>
   );

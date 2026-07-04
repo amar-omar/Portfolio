@@ -76,6 +76,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+link:""
 };
 
 export const workData = [
@@ -83,21 +84,25 @@ export const workData = [
     title: "E-Commerce",
     description: "Web Design",
     bgImage: "/work-1.png",
+    link: "https://e-commerce-by-angular.vercel.app/signin",
   },
   {
     title: "Movie app",
     description: "Mobile App",
     bgImage: "/work-2.png",
+    link:""
   },
   {
     title: "Food App",
     description: "Web Design",
     bgImage: "/work-3.png",
+    link:"https://food-app-eta-livid.vercel.app/"
   },
   {
     title: "E-Learning",
-    description: "UI/UX Design",
+    description: "UI Development",
     bgImage: "/work-4.png",
+    link:""
   },
 ];
 
@@ -111,7 +116,7 @@ export const serviceData = [
   // { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
   {
     icon: assets.ui_icon,
-    title: "UI/UX Design",
+    title: "UI Development",
     description:
       "UI/UX design focuses on creating a seamless user experience...",
     link: "",

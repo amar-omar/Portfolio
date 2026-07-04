@@ -41,7 +41,7 @@ export default function Footer() {
                 : "bg-white text-black"
             }`}
           >
-            © 2025 Amar Omar. All rights reserved.
+            © 2026 Amar Omar. All rights reserved.
           </h4>
 
           {/* Social Links */}
@@ -64,15 +64,7 @@ export default function Footer() {
                 Linkedin
               </Link>
             </li>
-            <li>
-              <Link
-              target="blank"
-                href="https://www.instagram.com/amaromar6844/"
-                className="hover:text-gray-400   transition-colors duration-300 text-sm sm:text-base"
-              >
-                Instagram
-              </Link>
-            </li>
+
           </ul>
         </div>
       </footer>
