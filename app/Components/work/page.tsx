@@ -4,7 +4,7 @@ import Image from "next/image";
 import { assets, workData } from "@/assets/assets";
 import { motion } from "motion/react";
 
-export default function Work() {
+export default function Work() {  
   return (
     <>
       <motion.section
@@ -58,34 +58,34 @@ export default function Work() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
                 className="bg-cover relative bg-no-repeat border-[0.5px] border-gray-400 w-full max-w-[280px] sm:max-w-none h-[280px] sm:h-[300px] md:h-[320px] lg:h-[335px] rounded-xl cursor-pointer hover:bg-rose-50 hover:-translate-y-1 duration-500 shadow-md hover:shadow-lg hover:shadow-rose-200 mx-auto sm:mx-0 group"
-              >
-                <Image
-                  src={bgImage}
-                  alt={title}
-                  width={335}
-                  height={335}
-                  className="w-full h-full object-cover rounded-xl"
-                />
+            >
+              <Image
+                src={bgImage}
+                alt={title}
+                width={335}
+                height={335}
+                className="w-full h-full object-cover rounded-xl"
+              />
 
-                <div className="absolute bottom-3 left-1/2 -translate-x-1/2 w-[90%] sm:w-[85%] bg-white rounded-xl px-3 sm:px-4 py-2 sm:py-3 flex justify-between items-center shadow-lg">
-                  <div className="flex-1 mr-2 sm:mr-3">
-                    <h3 className="font-semibold text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl mb-1 sm:mb-2">
-                      {title}
-                    </h3>
-                    <p className="text-gray-600 text-xs sm:text-sm leading-tight sm:leading-relaxed line-clamp-2">
-                      {description}
-                    </p>
-                  </div>
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 w-[90%] sm:w-[85%] bg-white rounded-xl px-3 sm:px-4 py-2 sm:py-3 flex justify-between items-center shadow-lg">
+                <div className="flex-1 mr-2 sm:mr-3">
+                  <h3 className="font-semibold text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl mb-1 sm:mb-2">
+                    {title}
+                  </h3>
+                  <p className="text-gray-600 text-xs sm:text-sm leading-tight sm:leading-relaxed line-clamp-2">
+                    {description}
+                  </p>
+                </div>
 
                   <div className="border rounded-full border-black w-8 h-8 sm:w-9 sm:h-9 flex justify-center items-center shadow-[2px_2px_0_#000] hover:shadow-[1px_1px_0_#000] hover:translate-x-0.5 hover:translate-y-0.5 transition-all group-hover:bg-lime-300">
-                    <Image
-                      src={assets.send_icon}
-                      className="w-3 sm:w-4 md:w-5"
-                      alt="send icon"
-                    />
-                  </div>
+                  <Image
+                    src={assets.send_icon}
+                    className="w-3 sm:w-4 md:w-5"
+                    alt="send icon"
+                  />
                 </div>
-              </motion.div>
+              </div>
+            </motion.div>
             </a>
           ))}
         </motion.div>

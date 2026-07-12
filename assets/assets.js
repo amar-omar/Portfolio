@@ -76,7 +76,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
-link:""
+  link: "",
 };
 
 export const workData = [
@@ -90,19 +90,19 @@ export const workData = [
     title: "Movie app",
     description: "Mobile App",
     bgImage: "/work-2.png",
-    link:""
+    link: "",
   },
   {
     title: "Food App",
     description: "Web Design",
     bgImage: "/work-3.png",
-    link:"https://food-app-eta-livid.vercel.app/"
+    link: "https://food-app-eta-livid.vercel.app/",
   },
   {
     title: "E-Learning",
     description: "UI Development",
     bgImage: "/work-4.png",
-    link:""
+    link: "",
   },
 ];
 

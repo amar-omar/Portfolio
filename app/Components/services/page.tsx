@@ -48,11 +48,11 @@ export default function Services() {
               className={` ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"}"border-[0.5px] border-gray-400 px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12 rounded-xl cursor-pointer  hover:-translate-y-1 duration-500 shadow-md hover:shadow-lg hover:shadow-rose-100 w-full max-w-sm mx-auto sm:max-w-none"`}
             >
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <Image
-                  src={icon}
-                  alt={title}
+              <Image
+                src={icon}
+                alt={title}
                   className="w-12 sm:w-14 lg:w-16"
-                />
+              />
               </a>
               <h3
                 className={`font-semibold text-gray-700 my-3 sm:my-4 text-lg sm:text-xl"  ${theme === "dark" ? " text-white" : "bg-white text-black"}`}
@@ -82,3 +82,4 @@ export default function Services() {
     </>
   );
 }
+
