@@ -77,6 +77,7 @@ export const assets = {
   right_arrow_bold,
   right_arrow_bold_dark,
   link: "",
+  title:"",
 };
 
 export const workData = [
