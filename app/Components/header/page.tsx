@@ -56,9 +56,8 @@ export default function Header() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            I am a Frontend Developer from Egypt , and I am a Fresh Graduate{" "}
-            <br /> I enjoy building sites & apps . My Foucs in React (Next.js ) , angular
-            .
+           I enjoy building web applications using React, Next.js and Angular.
+            
           </motion.p>
         </div>
 

@@ -33,14 +33,7 @@ export default function Services() {
         >
           My Services
         </motion.h1>
-        <motion.p
-          className="text-base sm:text-lg mt-4 sm:mt-6 max-w-2xl mx-auto"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.7 }}
-        >
-          I am a Frontend developer from Egypt
-        </motion.p>
+    
 
         <motion.div
           whileHover={{ scale: 1 }}

@@ -54,9 +54,9 @@ export default function About() {
           >
             <h4 className="text-lg text-justify max-w-2xl mb-8">
               I am a passionate and highly motivated Frontend Web Developer,
-               eager to launch my career. I have a solid
+               I have a solid
               foundation in modern web technologies , and I am excited to apply
-              my academic knowledge to real-world projects. I am a quick
+              my experience and knowledge to real-world projects. I am a quick
               learner, a creative problem-solver, and ready to contribute to a
               dynamic development team.
             </h4>
