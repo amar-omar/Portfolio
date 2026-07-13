@@ -62,6 +62,7 @@ export default function Navbar() {
                 (theme === "dark" ? "bg-gray-800" : "bg-white")
           }`}
         >
+          {/* lol */}
           <ul className="gap-4 sm:gap-6 lg:gap-8 text-base sm:text-lg hidden md:flex">
             <li>
               <Link
