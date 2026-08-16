@@ -100,10 +100,10 @@ export const workData = [
     link: "https://food-app-eta-livid.vercel.app/",
   },
   {
-    title: "E-Learning",
+    title: "Note-Application",
     description: "UI Development",
     bgImage: "/work-4.png",
-    link: "",
+    link: "https://note-application-five.vercel.app/",
   },
 ];
 
