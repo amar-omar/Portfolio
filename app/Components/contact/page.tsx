@@ -43,7 +43,7 @@ export default function Contact() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-center pt-20 md:pt-32 lg:pt-38 px-4 sm:px-6 lg:px-8"
+        className="text-center pt-20 md:pt-32 lg:pt-38 px-4 sm:px-6 lg:px-8 overflow-x-hidden"
         id="contact"
       >
         <motion.h4

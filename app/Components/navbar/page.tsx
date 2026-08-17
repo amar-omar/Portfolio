@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`flex justify-between items-center p-4 sm:p-6 lg:px-8 xl:px-[8%] top-0 left-0 right-0 w-full fixed z-50 bg-background ${
+        className={`flex justify-between items-center p-6 sm:p-4 lg:px-8 xl:px-[8%] top-0 left-0 right-0 w-full fixed z-50 bg-background overflow-hidden${
           theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"
         }${IsScroll ? " bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}
       >
