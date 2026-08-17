@@ -80,7 +80,7 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/Amar_Omar_Kamel-Front_End[1].pdf"
+            href="/Amar_Omar_Kamel_Frontend_Developer-new.pdf"
             download
             target="_blank"
             className="bg-white text-black px-4 py-3 md:px-6 md:py-4 rounded-full border border-gray-300 flex items-center justify-center gap-2 hover:bg-gray-200 transition-colors text-sm md:text-base w-full sm:w-auto"
