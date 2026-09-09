@@ -91,7 +91,7 @@ export const workData = [
     title: "Movie app",
     description: "Mobile App",
     bgImage: "/work-2.png",
-    link: "",
+    link: "https://movie-application-psi-two.vercel.app/",
   },
   {
     title: "Food App",
